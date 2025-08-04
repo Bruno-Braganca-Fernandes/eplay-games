@@ -12,7 +12,7 @@ const Banner = () => {
   const [game, setGame] = useState<Game>()
 
   useEffect(() => {
-    fetch('https://fake-api-tau.vercel.app/api/eplay/destaque')
+    fetch('https://ebac-fake-api.vercel.app/api/eplay/destaque')
       .then((res) => res.json())
       .then((res) => setGame(res))
   }, [])
@@ -34,7 +34,7 @@ const Banner = () => {
         </div>
         <Button
           type="link"
-          to="/produtos"
+          to={`/product/${game.id}`}
           title="Clique aqui para aproveitar esta oferta"
         >
           Aproveitar
