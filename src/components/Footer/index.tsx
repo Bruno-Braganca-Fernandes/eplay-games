@@ -1,4 +1,4 @@
-import { Container, FooterSection, Link, Links, SectionTitle } from './style'
+import { Container, FooterSection, Link, Links, SectionTitle } from './styles'
 
 const currentYear = new Date().getFullYear()
 

@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Section from '../Section'
 import { GalleryItem } from '../../pages/Home'
 
-import { Action, Item, Items, Modal, ModalContent } from './style'
+import { Action, Item, Items, Modal, ModalContent } from './styles'
 
 import spiderman from '../../assets/images/banner-homem-aranha.png'
 import hogwarts from '../../assets/images/fundo_hogwarts.png'

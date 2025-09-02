@@ -1,4 +1,4 @@
-import { Container, Title } from './style'
+import { Container, Title } from './styles'
 
 export type Props = {
   title: string
